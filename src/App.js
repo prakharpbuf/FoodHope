@@ -5,10 +5,12 @@ import About from "./Components/About"
 import Strategy from "./Components/Strategy"
 import Team from "./Components/Team"
 import Footer from "./Components/Footer"
+import NgoList from "./Components/NgoList"
+import { Switch, Route } from "react-router"
 
-function App() {
-  return (
-    <div className="App">
+function Landing(){
+  return(
+    <div class="App">
       <Header />
       <Home />
       <About />
@@ -16,6 +18,28 @@ function App() {
       <Team />
       <Footer />
     </div>
+  )
+}
+
+function Donate(){
+  return(
+    <div className="App">
+      <Header />
+      <NgoList />
+      <Footer />
+    </div>
+  )
+}
+
+function App() {
+  return (
+    <main>
+      <Switch>
+        <Route path="/" component={Landing} exact />
+        <Route path="/donate" component={Donate} />
+        <Route component={Error} />
+      </Switch>
+    </main>
   );
 }
 
