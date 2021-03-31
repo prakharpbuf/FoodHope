@@ -10,7 +10,7 @@ import { Switch, Route } from "react-router"
 
 function Landing(){
   return(
-    <div class="App">
+    <div className="App">
       <Header />
       <Home />
       <About />

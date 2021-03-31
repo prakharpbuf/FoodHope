@@ -46,3 +46,17 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+body{
+    font-size: 1.2em;
+}
+body, html, .App, #root{
+    height: 100%;
+    width: 100%;
+}
+button{
+	cursor: pointer;
+}
+main{
+	height: 100%;
+}

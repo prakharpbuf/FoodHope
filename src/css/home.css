@@ -1,0 +1,47 @@
+.home{
+    background-color: black;
+    height: 60%;
+}
+.homeImage{
+    background: url("https://www.mdidentity.com/wp-content/uploads/2016/03/cupped-hands.jpg") no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeContent{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+.homeContent button{
+    margin: 5% 0 0 50%;
+    transform: translate(-50%,0);
+    background-color: #FB4C4C;
+    color: white;
+    border: none;
+    padding: 4px 16px;
+    border-radius: 4px;
+}
+button{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* .home img{
+    width: 50%;
+    height: 50%;
+    margin: 30% 0 0 50%;
+    transform: translate(-50%,-50%);
+    position: relative;
+}
+.homeContent{
+    color: white;
+    position: relative; 
+    margin-top: -30%;
+}
+
+ */
