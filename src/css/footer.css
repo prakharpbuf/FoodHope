@@ -1,0 +1,15 @@
+.contact{
+    background-color: #222931;
+    height: 25%;
+    margin-top: 100px;
+}
+.contact .textarea:first-child .border .text h3{
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+.footer{
+    padding-top: 70px;
+}
+.footer .border{
+    width: 100%;
+}

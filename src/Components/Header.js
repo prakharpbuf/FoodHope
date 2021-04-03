@@ -1,5 +1,6 @@
 import React from "react"
 import logo from "../images/logo.png"
+import {Link} from "react-router-dom"
 
 class Header extends React.Component{
     constructor(){
@@ -26,9 +27,9 @@ class Header extends React.Component{
                     <div className={changed + " bar3"}></div>
                 </div>
                 <div style={{height: this.state.expanded?"":"0"}} className="links">
-                    <a href="#home">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#contact">Contact</a>
+                    <Link to="#home">Home</Link>
+                    <Link to="#about">About</Link>
+                    <Link to="#contact">Contact</Link>
                 </div>
             </header>
        )

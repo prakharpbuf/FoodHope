@@ -17,9 +17,11 @@ header img{
   transition: 0.2s;
 }
 
+
 .change.bar1 {
   -webkit-transform: rotate(-45deg) translate(-9px, 6px);
   transform: rotate(-45deg) translate(-9px, 6px);
+  background-color: #FB4C4C;
 }
 
 .change.bar2 {opacity: 0;}
@@ -27,6 +29,7 @@ header img{
 .change.bar3 {
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
   transform: rotate(45deg) translate(-8px, -8px);
+  background-color: #FB4C4C;
 }
 
 .links{

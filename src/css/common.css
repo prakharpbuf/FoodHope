@@ -54,9 +54,38 @@ body, html, .App, #root{
     height: 100%;
     width: 100%;
 }
-button{
-	cursor: pointer;
-}
 main{
 	height: 100%;
 }
+button{
+	cursor: pointer;
+}
+
+.textarea{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 25%;
+}
+.text{
+	text-align: center;
+	width: 90%;
+	margin-left: 50%;
+	transform: translate(-50%,0);
+}
+.text h3{
+	font-size: 0.9em;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+.text p{
+	margin-top: 4%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.8em;
+	font-weight: lighter;
+}
+.border{
+	border-left: 1px solid rgba(255, 255, 255, 0.4);
+	margin: 0 3% 0 3%;
+	text-align: center;
+} 

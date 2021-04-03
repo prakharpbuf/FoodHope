@@ -1,0 +1,20 @@
+.strategy{
+    margin-top: 5%;
+}
+.strategy-text{
+    margin-top: 50px;
+}
+.strategy .strategy-text:first-child .border .text h3{
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+.strategy-text.textarea{
+    height: auto;
+}
+.strategy-text .border{
+    border-left: 1px solid rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+@media screen and (min-width: 450px) {
+    
+}

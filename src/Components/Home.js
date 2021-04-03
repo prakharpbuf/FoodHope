@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 function Home() {
 
     return ( 
-        <section className="home">
+        <section className="home" id="home">
             <div className="homeImage">
                 <div className="homeContent">
                     <p>Do something good today!</p>

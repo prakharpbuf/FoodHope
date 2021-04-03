@@ -1,4 +1,8 @@
-@import "reset.css";
+@import "common.css";
 @import "header.css";
 @import "home.css";
+@import "about.css";
+@import "strategy.css";
+@import "footer.css";
+
 
